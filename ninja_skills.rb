@@ -1,6 +1,5 @@
 require 'prime'
 
-=begin
 #Challenge 1: Booleans
 $a = true
 $b = false
@@ -36,7 +35,6 @@ $name = gets.chomp
 puts 'What do you like to do?'
 $hobby = gets.chomp
 puts ("My name is "+$name+" and I like to "+$hobby)
-=end
 
 #Challenge 6: Arrays
 $myFirstArray = []
