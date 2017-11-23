@@ -53,5 +53,31 @@ $favoriteMovie = {}
 $favoriteMovie[:movie] = "Frozen"
 
 #Challenge 8: Ranges
+$firstRange = (1..10)
+$firstRange.to_a
+$secondRange = Range.new(1, 1000, false)
+$secondRange.to_a
+$firstRange.each do |n|
+    puts n
+end
+$x = 0
+$secondRange.each do |n|
+    if($x < 50)
+        puts n
+    end
+end
+$newArray = []
+$firstRange.each do |n|
+    $newArray.push(n * 2)
+end
+puts ($newArray)
+$firstRange.map {|n|
+    if(n % 2 == 0)
+        n.to_s
+    else
+        n
+    end
+}
+
 #Challenge 9: Sum of Natural Numbers
 #The Final Challenge: Prime Numbers
