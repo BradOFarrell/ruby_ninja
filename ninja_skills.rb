@@ -20,6 +20,13 @@ $d = $e
 puts ($d)
 
 #Challenge 4: Strings
+$christine = "Hi, I'm Christine"
+$likesTo = "long walks on the beach, kinda."
+puts ($christine+" and I like "+$likesTo)
+$g = "2"
+$gToNumber = 2
+puts($g.to_i + $gToNumber)
+
 #Challenge 5: Input and Output
 #Challenge 6: Arrays
 #Challenge 7: Hashes
