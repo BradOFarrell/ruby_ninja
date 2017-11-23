@@ -1,3 +1,5 @@
+require 'prime'
+
 =begin
 #Challenge 1: Booleans
 $a = true
@@ -94,3 +96,8 @@ end
 puts ($output)
 
 #The Final Challenge: Prime Numbers
+def check_prime?(num)
+    puts (Prime.prime?(num))    
+end 
+check_prime?(5)
+check_prime?(12)
