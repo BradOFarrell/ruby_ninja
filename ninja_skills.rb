@@ -46,8 +46,12 @@ $myFirstArray[3] = 3
 $myFirstArray.push(true)
 puts($myFirstArray[4].class.name)
 
-
 #Challenge 7: Hashes
+$MyFavoriteAnimals = {edgar: "Donkey", frank: "turtle", greg: "rat", austin: "snake", rosemary: "cat"}
+$MyFavoriteAnimals[:edgar] = "Bear"
+$favoriteMovie = {}
+$favoriteMovie[:movie] = "Frozen"
+
 #Challenge 8: Ranges
 #Challenge 9: Sum of Natural Numbers
 #The Final Challenge: Prime Numbers
