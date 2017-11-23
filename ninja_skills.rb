@@ -28,6 +28,12 @@ $gToNumber = 2
 puts($g.to_i + $gToNumber)
 
 #Challenge 5: Input and Output
+puts 'Whats your name?'
+$name = gets.chomp
+puts 'What do you like to do?'
+$hobby = gets.chomp
+puts ("My name is "+$name+" and I like to "+$hobby)
+
 #Challenge 6: Arrays
 #Challenge 7: Hashes
 #Challenge 8: Ranges
